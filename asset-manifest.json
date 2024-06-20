@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-parking-lot/static/css/main.964fdded.css",
-    "main.js": "/React-parking-lot/static/js/main.4d700357.js",
+    "main.css": "/React-parking-lot/static/css/main.37b3c6ea.css",
+    "main.js": "/React-parking-lot/static/js/main.5044650c.js",
     "index.html": "/React-parking-lot/index.html",
-    "main.964fdded.css.map": "/React-parking-lot/static/css/main.964fdded.css.map",
-    "main.4d700357.js.map": "/React-parking-lot/static/js/main.4d700357.js.map"
+    "main.37b3c6ea.css.map": "/React-parking-lot/static/css/main.37b3c6ea.css.map",
+    "main.5044650c.js.map": "/React-parking-lot/static/js/main.5044650c.js.map"
   },
   "entrypoints": [
-    "static/css/main.964fdded.css",
-    "static/js/main.4d700357.js"
+    "static/css/main.37b3c6ea.css",
+    "static/js/main.5044650c.js"
   ]
 }
