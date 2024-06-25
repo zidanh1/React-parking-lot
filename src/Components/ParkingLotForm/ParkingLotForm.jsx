@@ -8,7 +8,7 @@ const PRIORITIES = {
   High: "High",
 };
 
-export default function ParkingLotForm() {
+export default function ParkingLotForm({ addItem }) {
   const [date, setDate] = useState("");
   const [link, setLink] = useState("");
   const [description, setDescription] = useState("");
@@ -28,7 +28,13 @@ export default function ParkingLotForm() {
   }
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(date, link, description, priority);
+    const [y, M, d] = date.split("-");
+    const formattedDate = `${M}/${d}/${y}`;
+    addItem(formattedDate, link, description, priority);
+    setDate("");
+    setLink("");
+    setDescription("");
+    setPriority(PRIORITIES.Medium);
   }
 
   return (
