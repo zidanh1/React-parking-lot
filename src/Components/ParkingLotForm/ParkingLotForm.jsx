@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Button } from "reactstrap";
+import { Form, Button, FormGroup, Label, Input } from "reactstrap";
 import "./ParkingLotForm.css";
 
 const PRIORITIES = {

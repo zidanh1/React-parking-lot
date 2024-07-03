@@ -37,7 +37,7 @@ export default function App() {
   }
 
   function deleteItem(id) {
-    setParkingLotItems((olditems) => oldItems.filter((item) => item.id !== id));
+    setParkingLotItems((oldItems) => oldItems.filter((item) => item.id !== id));
   }
   return (
     <div className="App">
