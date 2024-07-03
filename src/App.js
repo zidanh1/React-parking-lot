@@ -42,8 +42,8 @@ export default function App() {
   return (
     <div className="App">
       <header>
-        <h1>Browser Parking Lot</h1>
-        <p>Send most of your browser tabs into retirment</p>
+        <h1>Browser Garage</h1>
+        <p>Put most of your browser tabs to bed</p>
       </header>
       <main>
         <ParkingLotForm addItem={addItem} />
